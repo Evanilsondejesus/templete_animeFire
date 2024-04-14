@@ -1,0 +1,72 @@
+
+
+.outline-none{
+
+    outline: none;
+    }
+     
+    
+    .dropdown-item{
+    
+    color: rgb(255, 255, 255);
+    list-style: circle;
+    transition: border-color 0.3s ease;
+    transform: translateY(-10px);
+    
+    
+    }
+    
+    .dropdown-item:hover{
+    background-color: rgba(71, 69, 69, 0.541);
+    color:aliceblue;
+    
+    }
+    
+     
+    
+    
+    
+      .dropdown-menu{
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        transition: border-color 0.3s ease;
+      background-color: #000000;
+      }
+    
+    
+    
+    
+
+.informacao_card_extra{
+    box-sizing: border-box;
+    height: 250px;
+    background-image: url(imagens/card_disney.jpg);
+    cursor: pointer; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    }
+    
+     
+    .informacao_card_extra:hover{
+     
+    opacity: 0.8;
+    }
+     
+    
+    .titulo_card{
+    position: relative;
+    width: 100%; 
+    padding: 4px;
+    background-color: rgba(0, 0, 0, 0.678);
+    color: rgb(243, 180, 98);
+    
+    }
+    
+    
+    
+    
+    .titulo_card:hover{
+    
+    width: 100%; 
+    padding: 4px;
+    }
